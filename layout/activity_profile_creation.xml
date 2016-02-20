@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="csc296.project02.ProfileCreationActivity"
+    android:background="#515151"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#cccccc"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/PC_Title"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2"
+        android:rowCount="5">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:text="@string/PC_ProPic"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#cccccc"
+            />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="@string/PC_TakePicture"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/Button_TakePicture"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:text="@string/PC_FullName"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#cccccc"
+            />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:hint="@string/PC_FullNameHint"
+            android:layout_gravity="center"
+            android:textColorHint="#cccccc"
+            android:textColor="#cccccc"
+            android:id="@+id/EditText_FullName"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:text="@string/PC_Birthdate"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#cccccc"
+            />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:hint="@string/PC_BirthdateHint"
+            android:layout_gravity="center"
+            android:textColorHint="#cccccc"
+            android:textColor="#cccccc"
+            android:id="@+id/EditText_Birthday"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="115dp"
+            android:text="@string/PC_HomeTown"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#cccccc"
+            />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:hint="@string/PC_HomeTownHint"
+            android:layout_gravity="center"
+            android:textColorHint="#cccccc"
+            android:textColor="#cccccc"
+            android:id="@+id/EditText_Hometown"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="115dp"
+            android:text="@string/PC_Bio"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#cccccc"
+            />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:hint="@string/PC_BioHint"
+            android:layout_gravity="center"
+            android:textColorHint="#cccccc"
+            android:textColor="#cccccc"
+            android:id="@+id/EditText_Bio"
+            android:gravity="center"
+            />
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:text="@string/PC_Submit"
+        android:id="@+id/Button_Submit"/>
+
+</LinearLayout>

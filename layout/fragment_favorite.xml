@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="csc296.project02.FavoriteFragment"
+    android:orientation="vertical"
+    android:background="#cccccc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_margin="3dp"
+            android:id="@+id/ImageView_FragDialog"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#515151"
+            android:id="@+id/TextView_Frag_Name"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/temporary"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textSize="30dp"
+        android:textColor="#515151"
+        android:id="@+id/TextView_Frag_Bio"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/temporary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textSize="20dp"
+        android:textColor="#515151"
+        android:id="@+id/TextView_Frag_Birthday"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/temporary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:textSize="20dp"
+        android:textColor="#515151"
+        android:id="@+id/TextView_Frag_Hometown"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/temporary"/>
+
+
+</LinearLayout>
